@@ -1,0 +1,74 @@
+.nav-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+li::marker{
+    list-style:circle;
+    color: blue;
+    
+}
+
+
+body{
+    background-color: lightblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+text-decoration: none;
+}
+
+.cloth img{
+    width:400px;
+    border-radius: 10px;
+    height:450px;
+    margin: 8px;
+}
+
+.dish img{
+    width:400px;
+    height: 200px;
+    margin:8px;
+}
+.mery{
+    width: 450px;
+    height: 600px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.coffee img{
+    width:400px;
+    border-radius: 10px;
+    height:450px;
+    margin: 8px;
+}
+.coffee h1{
+    margin-bottom: 20px;
+    color:purple;
+}
+
+.all{
+    margin:10px;
+    padding: 20px;
+}
+
+.about{
+    background-color: #799351;
+    padding: 20px;
+}
+
+.contact{
+    background-color: #E49BFF;
+    padding: 20px;
+}
+
+.hobbies{
+    background-color:#9ecfb9;
+    padding: 20px;
+   
+}
